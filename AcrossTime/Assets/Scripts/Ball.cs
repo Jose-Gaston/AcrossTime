@@ -24,6 +24,8 @@ public class Ball : MonoBehaviour
 
     public void Launch () 
     {
+        //no ve que wapo el juego
+
         float x = Random.Range(0,2) == 0 ? -1 : 1; // X Random direction of the Ball at the beggining, if its 0 will be -1, if not 1
         float y = Random.Range(0,2) == 0 ? -1 : 1; // Y Random direction of the Ball at the beggining, if its 0 will be -1, if not 1
 
