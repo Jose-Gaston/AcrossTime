@@ -8,7 +8,7 @@ public class Goal : MonoBehaviour
     public bool player1Goal;
     public GameObject gameManager;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)//When something collide with the object with this script
     {
         if (collision.CompareTag("Ball"))//If collide with ball
         { 
