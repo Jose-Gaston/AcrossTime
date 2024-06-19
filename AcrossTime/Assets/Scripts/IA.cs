@@ -29,7 +29,7 @@ public class IA : MonoBehaviour
         // If AI is below the ball, move upwards
         if (transform.position.y < ballPos.y)
         {
-            transform.position += new Vector3(0, +speed * Time.deltaTime);
+            transform.position += Vector3.up * speed * Time.deltaTime;
         }
 
     }
