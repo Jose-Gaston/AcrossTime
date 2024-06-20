@@ -12,19 +12,20 @@ public class Ball : MonoBehaviour
 
     void Start()
     {
+        
         transform.position = starPos;//Set the starting position to the ball initial position
-        Launch();//Inititate the Launch
+        Invoke("Launch", 2);//Inititate the Launch with 3 seconds delay
     }
     public void Reset()
     {
         transform.position = starPos; //Move the ball to the init
         rb.velocity = Vector2.zero; //Set vel. to 0
-        Launch(); //Lauch the ball
+        Invoke("Launch", 1);//Inititate the Launch with 3 seconds delay
     }
 
     public void Launch () 
     {
-        //no ve que wapo el juego
+        
 
         float x = Random.Range(0,2) == 0 ? -1 : 1; // X Random direction of the Ball at the beggining, if its 0 will be -1, if not 1
         float y = Random.Range(0,2) == 0 ? -1 : 1; // Y Random direction of the Ball at the beggining, if its 0 will be -1, if not 1

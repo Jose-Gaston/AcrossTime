@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class Players : MonoBehaviour
 {
     public bool player1; // Determines if this is player 1 or player 2
     public float speed = 3; // Speed of the player's movement
     public Rigidbody2D rb;
+    public GameObject gameManager; //Reference to the object GameManager
+    public GameObject Player1; // Reference to the object Player1 (IA)
 
     private float move; // Stores the player's input for movement
     private Vector2 startPos; // Stores the starting position of the player

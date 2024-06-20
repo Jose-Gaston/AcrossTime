@@ -999,7 +999,8 @@ MonoBehaviour:
   Player2Goal: {fileID: 566591285}
   player1Text: {fileID: 1824414577}
   player2Text: {fileID: 963990944}
-  IAGame: 1
+  IAGame: 0
+  maxScore: 5
 --- !u!4 &513893377
 Transform:
   m_ObjectHideFlags: 0
@@ -1848,7 +1849,6 @@ GameObject:
   - component: {fileID: 1002720526}
   - component: {fileID: 1002720525}
   - component: {fileID: 1002720527}
-  - component: {fileID: 1002720528}
   m_Layer: 0
   m_Name: Player1(IA)
   m_TagString: Untagged
@@ -2010,20 +2010,6 @@ MonoBehaviour:
   player1: 1
   speed: 5
   rb: {fileID: 1002720525}
---- !u!114 &1002720528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002720522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fd649d402ad5cd4aba44238430be02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  ball: {fileID: 1571354233}
 --- !u!1 &1161747736
 GameObject:
   m_ObjectHideFlags: 0
