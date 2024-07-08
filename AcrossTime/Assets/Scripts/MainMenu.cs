@@ -16,10 +16,10 @@ public class MainMenu : MonoBehaviour
 
     public void PVE()
     {
-        SceneManager.LoadScene("PlayerVSIA");
+        SceneManager.LoadScene("PongMain");
     }
     public void PVP()
     {
-        SceneManager.LoadScene("PlayerVSPlayer");
+        SceneManager.LoadScene("PongPVP");
     }
 }

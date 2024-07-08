@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 3f172e993988d7d41b2de453cfaaef15
   - enabled: 1
-    path: Assets/Scenes/PlayerVSIA.unity
+    path: Assets/Scenes/PongMain.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/PlayerVSPlayer.unity
+    path: Assets/Scenes/PongPVP.unity
     guid: a752591e011871b4ba8c6b3e40795ac4
   - enabled: 1
     path: Assets/Scenes/VictoryPlayer1.unity

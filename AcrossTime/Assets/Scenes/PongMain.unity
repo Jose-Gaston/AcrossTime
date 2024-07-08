@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fd649d402ad5cd4aba44238430be02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 8
   ball: {fileID: 1571354233}
   gameManager: {fileID: 513893375}
   Player1: {fileID: 1002720522}
