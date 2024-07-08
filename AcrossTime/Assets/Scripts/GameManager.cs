@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         CheckVictory();//Check if someone have tha maxScore
         ResetPosition();//Reset the game
 
-        if (IAGame)//If we are playing STORY MODE
+        if (IAGame && player2Score >=10)//If we are playing STORY MODE
         {
             ChangeColorOfField(Random.ColorHSV(0.0f, 1.0f, 0.0f, 1.0f, 0.3f, 1.0f)); // Change color of all child objects under 'map' to random color not dark
         }
